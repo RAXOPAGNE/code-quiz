@@ -23,6 +23,6 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 
-![VScode-screenshot](/Assets/code-quiz/code-screenshot.png)
+![VScode-screenshot](/code-quiz/Assets/code-screenshot.png)
 
 Deployed link: https://raxopagne.github.io/code-quiz/

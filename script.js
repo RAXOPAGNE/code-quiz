@@ -40,7 +40,7 @@ var questions = [
   var questionsDiv = document.querySelector("#questionsDiv");
   var wrapper = document.querySelector("#wrapper");
   
-  //Creating the Timer
+  //Timer
   var secondsLeft = 60;
   var holdInterval = 0;
   var penalty = 5;
@@ -62,7 +62,7 @@ var questions = [
     render(questionList);
   });
   
-  //create a function so that the list of questions runs on start
+  //function so that the list of questions runs on start
   function render(questionList) {
     questionsDiv.innerHTML = "";
     ulCreate.innerHTML = "";
@@ -79,7 +79,7 @@ var questions = [
       listItem.addEventListener("click", compare);
     });
   }
-  //create a function that will compare user answer to the correct answer
+  //function that will compare user answer to the correct answer
   function compare(event) {
     var element = event.target;
     if (element.matches("li")) {
