@@ -153,7 +153,7 @@ var questions = [
   
     questionsDiv.appendChild(createSubmit);
   
-    // Local Storage
+    //  this is the local Storage section 
     createSubmit.addEventListener("click", function () {
       var initials = createInput.value;
   
