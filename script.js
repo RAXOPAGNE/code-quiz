@@ -38,7 +38,7 @@ var questions = [
   var currentTime = document.querySelector("#currentTime");
   var timer = document.querySelector("#startTime");
   var questionsDiv = document.querySelector("#questionsDiv");
-  var wrapper = document.querySelector("#wrapper");
+  var wrapper = document.querySelector("#main-section");
   
   //Timer
   var secondsLeft = 60;
