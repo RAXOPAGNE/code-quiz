@@ -33,14 +33,18 @@ var questions = [
     },
   ];
   
+
   var score = 0;
   var questionList = 0;
   var currentTime = document.querySelector("#currentTime");
   var timer = document.querySelector("#startTime");
-  var questionsDiv = document.querySelector("#questionsDiv");
+  var questionsDiv = document.querySelector("#questions-section");
   var wrapper = document.querySelector("#main-section");
   
-  //Timer
+
+  //Timer section with rules, penalty and times up
+
+
   var secondsLeft = 60;
   var holdInterval = 0;
   var penalty = 5;
@@ -62,7 +66,10 @@ var questions = [
     render(questionList);
   });
   
-  //function so that the list of questions runs on start
+
+  //This function will trigger the questions to start once the user click start
+
+
   function render(questionList) {
     questionsDiv.innerHTML = "";
     ulCreate.innerHTML = "";
@@ -79,7 +86,11 @@ var questions = [
       listItem.addEventListener("click", compare);
     });
   }
-  //function that will compare user answer to the correct answer
+
+
+  //This function will essentially compare the question and determin whether the answer is right or wrong
+
+
   function compare(event) {
     var element = event.target;
     if (element.matches("li")) {
@@ -94,6 +105,7 @@ var questions = [
       }
     }
   
+
     questionList++;
   
     if (questionList >= questions.length) {
@@ -112,7 +124,10 @@ var questions = [
     questionsDiv.appendChild(createDiv);
   }
   
+
   //This is the end of the quiz
+
+
   function allDone() {
     questionsDiv.innerHTML = "";
     currentTime.innerHTML = "";
@@ -123,7 +138,10 @@ var questions = [
   
     questionsDiv.appendChild(createH1);
   
-    // Stops timer and uses the number as a score
+
+    // Stops timer and gives score
+
+
     if (secondsLeft >= 0) {
       var timeRemaining = secondsLeft;
       var createP = document.createElement("p");
@@ -153,7 +171,10 @@ var questions = [
   
     questionsDiv.appendChild(createSubmit);
   
+
     //  this is the local Storage section 
+
+
     createSubmit.addEventListener("click", function () {
       var initials = createInput.value;
   
