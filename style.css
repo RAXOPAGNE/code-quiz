@@ -45,6 +45,7 @@ h1 {
 
   #highscores-section {
     text-align: center;
+    align-items: flex-start;
   }
   
 
@@ -58,7 +59,7 @@ h1 {
     top: 20%;
     width: 500px;
     height: 500px;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 15px;
   }
 

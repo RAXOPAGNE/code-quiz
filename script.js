@@ -125,7 +125,7 @@ var questions = [
   }
   
 
-  //This is the end of the quiz
+  //This is the end of the quiz.
 
 
   function allDone() {
