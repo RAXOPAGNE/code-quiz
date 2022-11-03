@@ -16,7 +16,7 @@ h1 {
 
   textarea {
     width: 90%;
-    margin: 20px;
+    margin: 25px;
   }
   
 
@@ -26,19 +26,19 @@ h1 {
 
 
   input {
-    margin-bottom: 20px;
-    width: 50%;
     border: 1px solid rgb(88, 88, 88);
+    width: 50%;
+    margin-bottom: 20px;
   }
 
   
   li {
     background-color: rgb(91, 91, 91);
+    color: white;
     margin-top: 10px;
     padding: 5px 15px;
     width: 80%;
-    font-size: 18px;
-    color: white;
+    font-size: 20px;
     border-radius: 15px;
   }
   
@@ -65,10 +65,11 @@ h1 {
 
   #startTime {
     background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 25px;
     margin-left: 33%;
     padding: 15px 32px;
-    font-size: 20px;
-    color: white;
+    
   }
 
 
@@ -95,10 +96,10 @@ h1 {
 
   #goBack {
     background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 25px;
     position: relative;
     padding: 10px;
-    font-size: 20px;
-    color: white;
     top: 30%;
     left: 55%;
     width: auto;
@@ -107,24 +108,26 @@ h1 {
   }
   
 
+  #Submit {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 25px;
+    margin-left: 33%;
+    padding: 15px 32px;
+    
+  }
+
+
+
   #clear {
     background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 25px;
     position: relative;
     padding: 10px;
-    font-size: 20px;
-    color: white;
     top: 30%;
     right: 5%;
     text-align: center;
-  }
-  
-
-  #Submit {
-    background-color: rgb(0, 0, 0);
-    margin-left: 33%;
-    padding: 15px 32px;
-    font-size: 20px;
-    color: white;
   }
   
 
